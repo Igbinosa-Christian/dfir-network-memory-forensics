@@ -27,5 +27,5 @@ All scenarios are **academic and simulated**.
 No real systems, users, or organisations were involved.
 
 ## Report
-📄 Full redacted report available in `/report/`
+📄 [Network and Memory Forensics Casework (PDF)](report/Network_and_Memory_Forensics_Casework.pdf)
 
