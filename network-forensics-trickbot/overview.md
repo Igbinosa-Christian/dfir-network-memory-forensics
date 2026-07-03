@@ -19,3 +19,10 @@ infrastructure.
 - The payload was identified as **TrickBot (Trojan family)**
 - Multiple C2 servers were identified through TLS certificate analysis
 - Communication patterns were consistent with known TrickBot behaviour
+
+| Technique ID | Name | Observed Behaviour |
+|---|---|---|
+| T1071.001 | Application Layer Protocol: Web Protocols | Payload delivered over HTTP port 80 |
+| T1036.005 | Masquerading | DLL disguised as PNG (diego.png) |
+| T1573.001 | Encrypted Channel: Symmetric Cryptography | TLS C2 communication |
+| T1571 | Non-Standard Port | C2 over TCP/447 and TCP/449 |
